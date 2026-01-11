@@ -18,3 +18,5 @@ spec:
           image: 443567063637.dkr.ecr.ap-south-1.amazonaws.com/notes-app:IMAGE_TAG
           ports:
             - containerPort: 8000
+      imagePullSecrets:
+      - name: ecr-reg-secret
