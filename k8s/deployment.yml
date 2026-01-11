@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: notes-app-cont
-          image: kuldeepsharmaks1/notes-app
+          image: 443567063637.dkr.ecr.ap-south-1.amazonaws.com/notes-app:IMAGE_TAG
           ports:
             - containerPort: 8000
